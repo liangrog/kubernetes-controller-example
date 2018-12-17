@@ -1,0 +1,6 @@
+#!/bin/bash -e
+CURRENT_DIR=$(pwd)
+GEN_DIR=$(dirname $0)
+REPO_DIR="$CURRENT_DIR/$GEN_DIR/../.."
+
+echo $REPO_DIR
